@@ -1,0 +1,16 @@
+[
+{
+  "modid": "periodic",
+  "name": "The Periodic Table of Minecraft",
+  "description": "Adds all the elements of the real world to Minecraft, sort of.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["PeriodicMadman","Guard13007","Lomeli12"],
+  "credits": "Lomeli12 for accidentally teaching me how to mod.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

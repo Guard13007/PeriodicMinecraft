@@ -1,0 +1,314 @@
+Plan
+====
+
+This is the plan I want to follow (as well as current progress) to create this mod.
+
+Elements
+--------
+
+Numbers mean progress has been made, but not completed.
+
+1. Started.
+2. Textured.
+3. Done.
+
+- [2] Hydrogen
+      - [ ] Get:   (separater) from Water, ?
+      - [ ] Use:   Explosive (fuel?), (combiner->water?), fuel cell, ?
+      - [ ] Types: Gas, ?
+      - [ ] Deuterium: Heavy isotope of hydrogen.
+- [1] Helium
+      - [ ] Get:   very small amount from atmosphere processing (0.0005%), bigger amount from processing natural gas (7%), ?
+      - [ ] Use:   Floaty thing?, ?
+      - [ ] Types: Gas, ?
+- [1] Lithium
+      - [ ] Get:   tarnished until contained (maybe make it slowly get more damaged as you hold it), ?
+      - [ ] Use:   Batteries(?), ?
+      - [ ] Types: ?
+- [ ] Beryllium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Carbon
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Nitrogen
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Oxygen
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Fluorine
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Neon
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Sodium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Magnesium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Aluminium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Silicon
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Phosphorus
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Sulfur
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Chlorine
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Argon
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Potassium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Calcium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Scandium
+      - [ ] Get:   ?
+      - [ ] Use:   (some kind of scanner?), ?
+      - [ ] Types: ?
+- [ ] Titanium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Vanadium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Chromium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Manganese
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Iron
+      - THIS ALREADY EXISTS AHHH
+      - [ ] Get:   ?
+      - [ ] Use:   (steel), ?
+      - [ ] Types: ?
+- [ ] Cobalt
+      - [ ] Get:   ?
+      - [ ] Use:   (blue things), ?
+      - [ ] Types: ?
+- [ ] Nickel
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Copper
+      - Add a config option for this one not to generate if there is already a copper in existence.
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Zinc
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Gallium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Germanium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Arsenic
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Selenium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Bromine
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Krypton
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Rubidium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Strontium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Yttrium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Zirconium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Niobium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Molybdenum
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Technetium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Ruthenium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Rhodium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Palladium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Silver
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Cadmium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Indium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Tin
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Antimony
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Tellurium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Iodine
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Xenon
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Caesium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Barium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Lanthanum
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Cerium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Praseodymium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Neodymium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Promethium
+      - [ ] Get:   (particle accelerator), ?
+      - [ ] Use:   (satellite battery), radioactive!, ?
+      - [ ] Types: ?
+- [ ] Samarium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Europium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Gadolinium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Terbium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Dysprosium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Holmium
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Name
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+- [ ] Name
+      - [ ] Get:   ?
+      - [ ] Use:   ?
+      - [ ] Types: ?
+
+Blocks
+------
+
+Numbers mean progress has been made, but not completed.
+
+1. Started.
+2. Textured.
+3. Done.
+
+- [1] Boron
+      - [ ] Get: ?
+      - [ ] Use: ?
+- [ ] Salt
+      - [ ] Get: ?
+      - [ ] Use: ?
+- [ ] Name
+      - [ ] Get: ?
+      - [ ] Use: ?
+
+Recipes
+-------
+
+- [ ] Salt (via some separation machine)-> Sodium (solid), Chlorine (liquid)
+- [ ] Water (liquid)(via electrolisis machine)-> Hydrogen (gas), Oxygen (gas)

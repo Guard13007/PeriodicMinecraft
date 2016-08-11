@@ -1,0 +1,120 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            name = "forge"
+            url = "http://files.minecraftforge.net/maven"
+        }
+        maven {
+            name = "sonatype"
+            url = "https://oss.sonatype.org/content/repositories/snapshots/"
+        }
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
+    }
+}
+
+apply plugin: 'forge'
+
+version = "1.0"
+group= "com.guard13007.periodic" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "periodic"
+
+minecraft {
+    version = "1.7.10-10.13.1.1219"
+    runDir = "eclipse"
+}
+
+repositories {
+	maven {
+		name = "ic2"
+		url = "http://maven.ic2.player.to/"
+	}
+    maven {
+        name = 'Lomeli Repo'
+        url = "http://lomeli12.net/maven/"
+    }
+}
+
+dependencies {
+    compile 'net.industrial-craft:industrialcraft-2:2.2.649-experimental:dev'
+    compile "net.lomeli:LomLib:1.7.10-3.1.0:dev"
+    // you may put jars on which you depend on in ./libs
+    // or you may define them like so..
+    //compile "some.group:artifact:version:classifier"
+    //compile "some.group:artifact:version"
+      
+    // real examples
+    //compile 'com.mod-buildcraft:buildcraft:6.0.8:dev'  // adds buildcraft to the dev env
+    //compile 'com.googlecode.efficient-java-matrix-library:ejml:0.24' // adds ejml to the dev env
+
+    // for more info...
+    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
+    // http://www.gradle.org/docs/current/userguide/dependency_management.html
+
+}
+
+processResources
+{
+    // this will ensure that this task is redone when the versions change.
+    inputs.property "version", project.version
+    inputs.property "mcversion", project.minecraft.version
+
+    // replace stuff in mcmod.info, nothing else
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+                
+        // replace version and mcversion
+        expand 'version':project.version, 'mcversion':project.minecraft.version
+    }
+        
+    // copy everything else, thats not the mcmod.info
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+}
+
+jar {
+    appendix = project.minecraft.version
+    exclude(['ic2'])
+	classifier = "universal"
+}
+
+ext.dirApi = "./api"
+ext.dirDest = './build/libs'
+
+task apiJar(type: Jar, dependsOn: 'classes') {
+	from (dirApi) {
+		include '**'
+	}
+
+	from (sourceSets.main.output) {
+		include 'com/guard13007/periodic/api/**'
+	}
+
+	destinationDir = file(dirDest)
+    exclude(['cofh'])
+    exclude(['ic2'])
+	extension = 'jar'
+	appendix = project.minecraft.version
+    classifier = "api"
+}
+
+task deobfJar(type: Jar) {
+    from sourceSets.main.output
+    appendix = project.minecraft.version
+    classifier = "dev"
+}
+
+artifacts {
+    archives apiJar
+    archives deobfJar
+}
+
+tasks.withType(Zip) { task ->
+    task.doLast {
+        ant.checksum algorithm: 'MD5', file: it.archivePath
+        ant.checksum algorithm: 'SHA1', file: it.archivePath
+    }
+}
